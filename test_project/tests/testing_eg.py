@@ -1,5 +1,5 @@
 def test_testing_success_code():
-    assert 10 / 2 == 5 #Test should pass
+    assert 10 / 2 == 5 # Test should pass
 
 def test_failure_code():
     assert 10 / 2 == 0 # Test should fail

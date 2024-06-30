@@ -1,7 +1,7 @@
 import pytest
 from src.calculator import add, subtract, multiply, divide
 
-@pytest.fixture (scope="function")
+@pytest.fixture (scope="function") # Fixture saves time by adding parameters just once to test different programmes
 def sample_data():
     return {
         "a": 5,
