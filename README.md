@@ -15,7 +15,7 @@
 
 - Unit testing: Testing specific components/functions/methods
 - Integration testing: Testing the compatibility with other modules/packages.
-- Chaos testing: Making a program break on purpose by disabling a functon or feature to see how errors ara handled.
+- Chaos testing: Making a program break on purpose by disabling a functon or feature to see how errors are handled.
 - Stress testing: Testing in high volumen of data/inputs (depending on use-case).
 - End to end / Acceptance testings: Testing done towards the end of the project when is almost complete, to ensure things work effectively.
 
@@ -27,7 +27,7 @@ Note: Great ides to organise your directory structure for maintenance and easy a
 - pytest follows the principle of 'assert'-ing that things are true in order for a test to pass.
 - For a test to pass, the assert value must be true.
 
-- Reading test output: . means pass, F means failed, E means exceptions
+- Reading test output: "." means pass, "F" means failed, "E" means exceptions
 
 ### Exceptions
 - Used to check what happens when things go wrong.
